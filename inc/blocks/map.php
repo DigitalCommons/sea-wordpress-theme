@@ -12,7 +12,7 @@ if (!get_field('show_datasets_panel')) {
 
 $initial_bounds = get_field('initial_bounds');
 
-if (isset($initial_bounds['lat_1']) && isset($initial_bounds['lat_2']) && isset($initial_bounds['lng_1']) && isset($initial_bounds['lng_2'])) {
+if ($initial_bounds['lat_1'] != null && $initial_bounds['lat_2'] != null && $initial_bounds['lng_1'] != null && $initial_bounds['lng_2'] != null) {
   $attributes['initialBounds'] = $initial_bounds['lat_1'].','. $initial_bounds['lng_1'].','.$initial_bounds['lat_2'].','.$initial_bounds['lng_2'];
 }
 
