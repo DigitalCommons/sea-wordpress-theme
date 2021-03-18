@@ -34,9 +34,16 @@
           </nav>
 
           <nav class="hamburger">
-            <span class="hamburger-icon">
+            <span class="hamburger-icon" onclick="toggleMobileMenu()">
               <i class="hamburger-lines" aria-label="Toggle Navigation Menu">×</i>
             </a>
           </nav>
         </div>
+        <nav id="mobile-nav" class="mobile-nav hidden">
+          <?php wp_nav_menu(array(
+            'theme_location' => 'main-navigation',
+            'container' => '',
+            'container_class' => ''
+          )) ?>
+        </nav>
       </header>

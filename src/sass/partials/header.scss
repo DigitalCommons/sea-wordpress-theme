@@ -31,7 +31,7 @@ h1.title {
 }
 
 p.tagline {
-  
+
   font-size: 15px;
   line-height: 1.2;
   margin-bottom: #{$base * 2};
@@ -86,4 +86,37 @@ p.tagline {
     display: none;
   }
 
+}
+
+.mobile-nav {
+  font-weight: 400;
+  text-align: right;
+
+  @include for-size(tablet-wide) {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0 1em 1em 1em;
+  }
+
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: $black;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+
+    &:hover {
+      color: $white;
+      background: $black;
+    }
+  }
+}
+
+.hidden {
+  display: none;
 }

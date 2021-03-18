@@ -201,7 +201,11 @@ function sea_enqueue_scripts()
     wp_register_script('fa', 'https://kit.fontawesome.com/' . get_field('font_awesome_kit', 'options') . '.js', array(), NULL, false);
     wp_enqueue_script('fa');
   }
+  if (file_exists(trailingslashit(get_stylesheet_directory()) . 'js/sea-wp.js')) {
+    wp_enqueue_script('sea-admin-scripts', get_stylesheet_directory_uri() . '/js/sea-wp.js');
+  }
 }
+
 add_action('wp_enqueue_scripts', 'sea_enqueue_scripts');
 
 // Enqueue extra scripts
