@@ -17,7 +17,7 @@ if ($initial_bounds['lat_1'] != null && $initial_bounds['lat_2'] != null && $ini
 }
 
 $default_lat_lng = get_field('default_lat_lng');
-if ($default_lat_lng['lat'] && $default_lat_lng['lng']) {
+if ($default_lat_lng['lat'] != null && $default_lat_lng['lng'] != null) {
   $attributes['defaultLatLng'] = $default_lat_lng['lat'].','.$default_lat_lng['lng'];
 }
 
