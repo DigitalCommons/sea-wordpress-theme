@@ -131,7 +131,7 @@ function sea_register_blocks()
     'render_template' => 'inc/blocks/map.php',
     'category'    => 'widgets',
     'icon'      => 'location',
-    'mode'      => 'auto',
+    'mode'      => 'edit',
     'keywords'    => array(),
     'post_types' => array()
   ));
