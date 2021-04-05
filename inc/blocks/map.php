@@ -64,7 +64,5 @@ $map_style = "width:100%; height: ".(get_field('height') ? : '500') . 'px;';
     <div class="cover"></div>
   </div>
 </div>
-
-<div class="wp-block-buttons">
-  <div class="wp-block-button"><a class="wp-block-button__link" href="<?= $map_url ?>" target="_blank">View Map In Full-screen</a></div>
+<div class="sea-map-fullscreen-button-container"><a class="sea-map-fullscreen-button" href="<?= $map_url ?>" target="_blank">View Map In Full-screen</a>
 </div>
