@@ -1,19 +1,18 @@
 {
-  "name": "onebasetheme.wpengine.com",
+  "name": "sea-wordpress-theme",
   "version": "1.0.0",
-  "description": "One Grunt setup - 28/02/19",
+  "description": "Solidarity Economy Association mapping wordpress theme",
   "main": "index.js",
   "scripts": {
-    "build": "grunt build",
+    "build": "rm -rf sea-wordpress-theme; mkdir -p sea-wordpress-theme; cp -r website.json *.php acf-json admin assets inc js *.css sea-wordpress-theme",
     "dev": "grunt dev",
+    "zip": "zip sea-wordpress-theme.zip -r sea-wordpress-theme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "grunt",
-    "one"
   ],
-  "author": "One Ltd",
-  "license": "ISC",
+  "author": "Solidarity Economy Association",
+  "license": "AGPL-3.0",
   "repository": "",
   "devDependencies": {
     "@babel/core": "^7.11.1",
