@@ -1,0 +1,21 @@
+.sea-map-fullscreen-button-container {
+    margin-top: 1em;
+}
+.sea-map-fullscreen-button, .sea-map-fullscreen-button:visited {
+    background-color: #0bb696;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Lato,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.125em;
+    padding: 0.5em 1.333em 0.4em 1.333em;
+    text-align: center;
+    text-decoration: none;
+}
+.sea-map-fullscreen-button:hover {
+    color: #fff;
+    background-color: #414141;
+}

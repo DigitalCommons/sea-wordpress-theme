@@ -1,0 +1,80 @@
+{
+    "key": "group_5ed02824b7237",
+    "title": "Footer options",
+    "fields": [
+        {
+            "key": "field_5ed2088dbaa4a",
+            "label": "Social",
+            "name": "social",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5ed2089ebaa4b",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add social page",
+            "sub_fields": [
+                {
+                    "key": "field_5ed2089ebaa4b",
+                    "label": "Social Page URL",
+                    "name": "social_page",
+                    "type": "url",
+                    "instructions": "Add the full URL of a social page to link to. Example: https:\/\/twitter.com\/yourtwittername",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ed2093fbaa4c",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "text",
+                    "instructions": "Find an icon at <a href=\"https:\/\/developer.wordpress.org\/resource\/dashicons\/\" target=\"_blank\">Dashicons<\/a>. Copy the icon id (for example <b>dashicons-twitter<\/b>) into this field. Other common icons are <b>dashicons-facebook<\/b> and <b>dashicons-instagram<\/b>.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1591435105
+}
