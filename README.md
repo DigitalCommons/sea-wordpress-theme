@@ -1,12 +1,15 @@
 # sea-wordpress-theme
 
+apt install ruby-sass
+
 ## Building
 
-Run the gruntfile in the theme directory (`wp-content/themes/solidarity-economy/`): 
+    npm install
+    npm run build # generates compressed files with no comments.
 
-`grunt dev` will watch for changes and generate uncompressed files while
+`npm run dev` will run `grunt dev`
 
-`grunt build`will watch and generate compressed files with no comments.
+
 
 ## Structure
 
