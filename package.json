@@ -9,8 +9,7 @@
     "zip": "zip sea-wordpress-theme.zip -r sea-wordpress-theme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Solidarity Economy Association",
   "license": "AGPL-3.0",
   "repository": "",
