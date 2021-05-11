@@ -1,2 +1,4 @@
 build/
 node_modules/
+/styles.css
+/js/core.js
